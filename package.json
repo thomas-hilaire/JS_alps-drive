@@ -1,0 +1,21 @@
+{
+  "name": "AlpsBox",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "author": "Thomas Hilaire <thomas.hilaire@le-campus-numerique.fr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon backend/server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-busboy": "^8.0.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "supertest": "^4.0.2"
+  },
+  "packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f"
+}
